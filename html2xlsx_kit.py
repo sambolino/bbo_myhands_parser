@@ -63,6 +63,8 @@ for row in rows:
     worksheet.write(irow, icol, row['date'])
     worksheet.write(irow, icol + 1, row['tournament'])
     worksheet.write(irow, icol + 2, row['movie'])
+    worksheet.write(irow, icol + 5, '=IF(AND(ISBLANK(D%s), ISBLANK(E%s)), 1, "")' % (2*(irow+1,)))
+
 
 irow +=4
 worksheet.write(irow, 3, "=SUM(D2:D%s)" % (irow-3,))
