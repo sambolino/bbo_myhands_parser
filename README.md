@@ -17,4 +17,4 @@ Clone the project, download myhands page into html folder under the default name
 python3 html2xlsx_kit.py
 ```
 ## Twisting the dates
-Myhands allows limited temporal querying options. If you want data from particular periods (say 2 weeks), you can edit the timestamp in the address bar - there are online tools for timestamp such as [this](https://www.timestampconvert.com/). Also (and especially if the data is overlapped), you should edit html manually (just throw out the rows from the tournaments you don't need).
+Myhands allows limited temporal querying options. If you want data from particular periods (say 2 weeks or 2 months), you can edit the timestamp in the address bar - there are online tools for timestamp such as [this](https://www.timestampconvert.com/). Also (and especially if the data is overlapped), you could edit html manually (just throw out the rows from the tournaments you don't need). OR - you can get them all into xslx and erase them afterwards. 
